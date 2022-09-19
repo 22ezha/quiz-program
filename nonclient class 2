@@ -1,0 +1,20 @@
+public class Baseball extends Player 
+{
+    private int hits;
+    private int atbat;
+    public Baseball ()
+    {
+        hits = -1;
+        atbats = -1;
+    }
+    public Baseball (String n, String t, int h, int a)
+    {
+        super (n,t);
+        hits = h;
+        atbats = a;
+    }
+    public double avg ()
+    {
+        return (hits / atbats);
+    }
+}
