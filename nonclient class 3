@@ -1,0 +1,20 @@
+public class Basketball extends Player 
+{
+    private int points;
+    private int games;
+    public Basketball ()
+    {
+        points = -1;
+        games = -1;
+    }
+    public Basketball (String n, String t, int p, int g)
+    {
+        super (n,t);
+        points = p;
+        games = g;
+    }
+    public double Avg ()
+    {
+        return (points / games);
+    }
+}
