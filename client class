@@ -1,0 +1,20 @@
+/******************************************************************************
+Eric Zhang
+Comp Sci
+Quiz Program
+*******************************************************************************/
+import java.io.*;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+		Baseball base = new Baseball (“Babe Ruth”, “Yankees”, 2873, 8399);
+		Basketball basket = new Basketball (“Michael Jordan”, “Bulls”, 32292, 1072);
+		System.out.println(base.getName);
+		System.out.println(base.getTeam);
+		System.out.println(base.Avg);
+		System.out.println("\n"+basket.getName);
+		System.out.println(basket.getTeam);
+		System.out.println(basket.Avg);
+	}
+}
